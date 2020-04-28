@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:inputType="date"
+            android:editable="false"
+            android:drawableEnd="@drawable/ic_action_date"
+            android:hint=" Booking Date"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/dateSelector"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="selectDate"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/am"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:text="Morning" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afternoon"
+        android:layout_below="@+id/am"
+        android:id="@+id/pm"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pm"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:id="@+id/register"
+        android:text="Book" />
+
+
+</LinearLayout>

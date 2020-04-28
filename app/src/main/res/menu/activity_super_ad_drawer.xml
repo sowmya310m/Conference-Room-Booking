@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="View All Admins" />
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View All Users" />
+        <item
+            android:id="@+id/admin_add"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Add Admin" />
+        <item
+            android:id="@+id/admin_del"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Delete an Admin" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/details_edit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Change My Details" />
+            <item
+                android:id="@+id/pwd_change"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

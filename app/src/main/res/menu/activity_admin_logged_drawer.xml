@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_conf"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add Conference Room" />
+        <item
+            android:id="@+id/upd_conf"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Update Conference Room" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Bookings" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/details_edit"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Edit Details" />
+            <item
+                android:id="@+id/pword_edit"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Change Password"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

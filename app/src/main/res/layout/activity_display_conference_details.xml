@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saiteja.eaglesmain.DisplayConferenceDetails">
+
+
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:textSize="22sp"
+        android:text="CNAME:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/cemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="22sp"
+        android:text="CEMAIL:"
+        android:layout_below="@+id/cname"
+        android:layout_alignStart="@+id/cname" />
+
+    <TextView
+        android:id="@+id/cphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:textSize="22sp"
+        android:text="CPHONE:"
+        android:layout_below="@+id/cemail"
+        android:layout_alignStart="@+id/cemail" />
+
+    <TextView
+        android:id="@+id/caddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:text="CADDR:"
+        android:layout_below="@+id/cphone"
+        android:layout_alignStart="@+id/cphone" />
+
+    <TextView
+        android:id="@+id/seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textSize="22sp"
+        android:text="SEATS:"
+        android:layout_below="@+id/caddr"
+        android:layout_alignStart="@+id/caddr" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="confirmBooking"
+        android:text="Confirm Booking"
+        android:layout_below="@+id/seats"
+        android:layout_toEndOf="@+id/cphone"
+        android:layout_marginTop="79dp" />
+</RelativeLayout>

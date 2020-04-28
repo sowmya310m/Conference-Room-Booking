@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bookARoom"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Book a conference" />
+        <item
+            android:id="@+id/viewBookings"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View Your Bookings" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/edit_details"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Edit Your details" />
+            <item
+                android:id="@+id/edit_password"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Update Your password" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
